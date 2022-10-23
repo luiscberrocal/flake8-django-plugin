@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "flake8-django-plugin"
-version = "0.1.0"
+version = "0.1.1"
 homepage = "https://github.com/luiscberrocal/flake8-django-plugin"
 description = "Flake8 plugin to enforce good practices.."
 authors = ["Luis Carlos Berrocal C. <luis.berrocal.1942@gmail.com>"]
