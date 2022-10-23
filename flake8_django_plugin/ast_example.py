@@ -2,11 +2,19 @@ import ast
 from pathlib import Path
 
 
+class MyNodeVisitor(ast.NodeVisitor):
+    def visit(self, node: ast.AST):
+        print(node)
+        self.generic_visit(node)
+
+
 def parse_models_file(filename: Path):
     with open(filename) as model_file:
         code = model_file.read()
     node = ast.parse(code)
 
-    print(node)
-    print('-' * 120)
-    print(node.body)
+    node_visitor = MyNodeVisitor()
+    node_visitor.visit(node)
+    # print(node)
+    # print('-' * 120)
+    # print(node.body)

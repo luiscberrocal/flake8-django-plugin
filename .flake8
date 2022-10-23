@@ -1,0 +1,9 @@
+[flake8]
+exclude = venv, .git
+weri =
+
+[flake8:local-plugins]
+extention =
+    MCOD1 = flake8_mcoding:MCodingASTPlugin
+path =
+    ./
