@@ -21,3 +21,6 @@ class MCodingASTPlugin:
         yield Flake8ASTErrorInfo(2, 3, 'MCOD100 Alwas error', type(self))
 
 
+
+
+
