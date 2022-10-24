@@ -1,7 +1,7 @@
 import ast
 from pathlib import Path
 
-
+R = '************************************************************************************************************************************************'
 class MyNodeVisitor(ast.NodeVisitor):
     def visit(self, node: ast.AST):
         print(node)
