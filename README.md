@@ -23,6 +23,6 @@ Flake8 plugin to enforce good practices.
 
 ## Credits
 
-Original source code https://github.com/mCodingLLC/VideosSampleCode
+This package was inpired from the video by mCoding [Python AST Parsing and Custom Linting](https://www.youtube.com/watch?v=OjPT15y2EpE&t=321s)
 
 This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [waynerv/cookiecutter-pypackage](https://github.com/waynerv/cookiecutter-pypackage) project template.
