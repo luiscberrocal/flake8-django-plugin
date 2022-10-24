@@ -23,4 +23,6 @@ Flake8 plugin to enforce good practices.
 
 ## Credits
 
+Original source code https://github.com/mCodingLLC/VideosSampleCode
+
 This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [waynerv/cookiecutter-pypackage](https://github.com/waynerv/cookiecutter-pypackage) project template.

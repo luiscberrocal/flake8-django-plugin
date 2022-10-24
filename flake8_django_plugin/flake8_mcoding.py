@@ -1,4 +1,12 @@
 import ast
+from typing import NamedTuple
+
+
+class Flake8ASTErrorInfo(NamedTuple):
+    line_number: int
+    offset: int
+    msg: str
+    cls: type
 
 
 class MCodingASTPlugin:
@@ -10,4 +18,4 @@ class MCodingASTPlugin:
 
     def run(self):
         print('Running')
-        yield from []
+        yield Flake8ASTErrorInfo(2, 3, 'MCOD100 Alwas error', type(self))
