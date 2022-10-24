@@ -18,4 +18,5 @@ class MCodingASTPlugin:
 
     def run(self):
         print('Running')
-        yield Flake8ASTErrorInfo(2, 3, 'MCOD100 Alwas error', type(self))
+        # yield Flake8ASTErrorInfo(2, 3, 'MCD100 Always error', type(self))
+        yield from []
